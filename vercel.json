@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/al_chemistry_syllabus_analysis.html"
+    }
+  ]
+}

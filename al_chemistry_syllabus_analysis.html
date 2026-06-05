@@ -125,6 +125,54 @@ body.sidebar-open #sidebar-backdrop { opacity: 1; pointer-events: auto; }
   line-height: 1.45;
 }
 
+.sidebar-contact {
+  margin-top: 10px;
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  color: var(--text3);
+  line-height: 1.6;
+}
+
+.sidebar-contact a {
+  color: var(--accent2);
+  text-decoration: none;
+}
+
+.sidebar-contact a:hover { color: var(--accent); }
+
+.contact-link {
+  color: var(--accent2);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.contact-link:hover { color: var(--accent); }
+
+.footer-contact {
+  margin: 20px 0 16px;
+  padding: 16px 20px;
+  background: rgba(79,195,247,0.06);
+  border: 1px solid rgba(79,195,247,0.15);
+  border-radius: 12px;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.footer-contact-label {
+  display: block;
+  color: var(--text2);
+  margin-bottom: 8px;
+  font-size: 0.72rem;
+}
+
+.footer-contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 16px;
+  font-size: 0.72rem;
+}
+
 .sidebar-section-label {
   font-family: var(--font-mono);
   font-size: 0.6rem;
@@ -1268,6 +1316,11 @@ body.sidebar-open #sidebar-backdrop { opacity: 1; pointer-events: auto; }
     <h2>A/L Chemistry<br>Syllabus Analysis</h2>
     <p>NIE Sri Lanka · Implemented 2017</p>
     <div class="sidebar-credit">Prepared by J.Abiraj BSc(Hons) in Computer science(R)</div>
+    <div class="sidebar-contact">
+      <a href="tel:+94776921300">📞 077 692 1300</a><br>
+      <a href="https://wa.me/94776921300" target="_blank" rel="noopener">WhatsApp</a> ·
+      <a href="mailto:abiraj30@gmail.com">abiraj30@gmail.com</a>
+    </div>
   </div>
 
   <div class="sidebar-section-label">Navigation</div>
@@ -3746,6 +3799,14 @@ body.sidebar-open #sidebar-backdrop { opacity: 1; pointer-events: auto; }
     Prepared by <strong style="color:var(--accent2)">J.Abiraj BSc(Hons) in Computer science(R)</strong><br>
     GCE (Advanced Level) Chemistry Syllabi — Implemented from 2017<br>
     Grades 12–13 · 14 Units · 46 Competency Levels · 600 Total Periods<br><br>
+    <div class="footer-contact">
+      <span class="footer-contact-label">Questions or feedback? Contact me</span>
+      <div class="footer-contact-links">
+        <a href="tel:+94776921300" class="contact-link">📞 Call · 077 692 1300</a>
+        <a href="https://wa.me/94776921300" class="contact-link" target="_blank" rel="noopener">💬 WhatsApp · 077 692 1300</a>
+        <a href="mailto:abiraj30@gmail.com" class="contact-link">✉ abiraj30@gmail.com</a>
+      </div>
+    </div>
     <span style="color:var(--text3)">This document is an analytical educational resource for A/L Chemistry students. All content, terminology, competency statements, outcomes, and educational structure are drawn directly from the official NIE syllabus document. www.nie.lk</span>
   </p>
 </footer>
